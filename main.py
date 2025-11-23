@@ -11,7 +11,7 @@ from handlers import cmd_start, cmd_quiz, right_answer, wrong_answer, cmd_stats,
 logging.basicConfig(level=logging.INFO)
 
 # Замените "YOUR_BOT_TOKEN" на ваш токен
-API_TOKEN = '8508803260:AAFKuUv_94lRUA637BXu24hrW-RMFfOrnQI'
+API_TOKEN = 'YOUR_BOT_TOKEN'
 
 # Объект бота и диспетчера
 bot = Bot(token=API_TOKEN)
